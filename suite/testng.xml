@@ -1,0 +1,8 @@
+<suite name="My suite">
+<listeners>
+    <listener class-name="com.avitas.listener.TestsListenerAdapter" />
+</listeners>
+  <suite-files>
+   <suite-file path="./Suite_A.xml" /> 
+  </suite-files>
+</suite>

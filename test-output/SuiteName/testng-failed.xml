@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteName]">
+  <test name="TestA(failed)">
+    <classes>
+      <class name="com.avitas.core.testcases.TestA">
+        <methods>
+          <include name="quit"/>
+          <include name="testB" invocation-numbers="0"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.avitas.core.testcases.TestA -->
+    </classes>
+  </test> <!-- TestA(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->
